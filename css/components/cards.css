@@ -1,0 +1,78 @@
+/* Your card CSS file */
+.card-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../../images/menhirs.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  height: 250px;
+  width: 500px;
+  background-position: center;
+  color: white;
+  font-size: 24px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.card-product img {
+    height: 100%;
+    width: 120px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.card-product p {
+    font-size: 16px;
+    line-height: 1.4;
+    opacity: .7;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.card-product h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-trip > img {
+    height: 300px;
+    width: 100%;
+    background-position: left;
+    object-fit: cover;
+}
+
+.card-trip {
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+.card-trip .card-trip-info {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.card-trip h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
